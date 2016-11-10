@@ -11,11 +11,11 @@
  
 ######截图#
 
-> <img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img1.jpg" width=180 height=320 />
-> <img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img2.jpg" width=180 height=320 />
-><img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img3.jpg" width=180 height=320 />
-><img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img4.jpg" width=180 height=320 />
-><img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img5.jpg" width=180 height=320 />
+> <img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img1.jpg" width=270 height=480 />
+> <img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img2.jpg" width=270 height=480 />
+><img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img3.jpg" width=270 height=480 />
+><img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img4.jpg" width=270 height=480 />
+><img src="https://github.com/qq739952903/Dictionary/blob/master/screenshots/img5.jpg" width=270 height=480 />
 
 
   
