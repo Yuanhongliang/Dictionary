@@ -7,7 +7,7 @@
  *   RxJava+RxAndroid 响应式编程配合请求
  *   GreenDAO3.0  本地数据库存储
  *   CardView 卡片布局
- *   CBDDialog （做的很漂亮的Dialog）
+ *    CBDDialog （做的很漂亮的Dialog）
  
  
  
