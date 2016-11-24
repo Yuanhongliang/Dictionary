@@ -19,6 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.adm.dictionary.base.BaseFragment;
+import com.adm.dictionary.util.HttpUtil;
 import com.adm.dictionary.util.SharedPreUtil;
 
 import java.util.ArrayList;
@@ -88,6 +89,10 @@ public class FaXianFragment extends BaseFragment {
         et.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if(!HttpUtil.isNetworkAvailable(getActivity())){
+                    showToast("当前网络不可用");
+                    return false;
+                }
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                     String searchStr = et.getText().toString().trim();
                     search(searchStr);

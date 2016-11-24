@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.adm.dictionary.base.BaseFragment;
 import com.adm.dictionary.bean.EveryDayWords;
 import com.adm.dictionary.http.HttpMethods;
+import com.adm.dictionary.util.HttpUtil;
 import com.bumptech.glide.Glide;
 
 import java.io.IOException;
@@ -41,6 +42,12 @@ public class TuijianFragment extends BaseFragment {
     }
 
     private void getData() {
+        if(!HttpUtil.isNetworkAvailable(getActivity())){
+            showToast("当前网络不可用");
+            voice.setVisibility(View.GONE);
+            return;
+        }
+
         HttpMethods.getInstance().getEveryDayWords().subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<EveryDayWords>() {
             @Override
             public void call(final EveryDayWords everyDayWords) {
